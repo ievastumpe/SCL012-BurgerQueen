@@ -10,8 +10,6 @@
 
 ## Diseño
 
-figma
-
 ### Prototipo de baja fidelidad
 
 ### Prototipo de alta fidelidad
@@ -19,6 +17,5 @@ figma
 ## Test de usabilidad
 
 ## Planificación
-
 
 
