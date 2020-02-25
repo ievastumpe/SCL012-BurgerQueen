@@ -2,21 +2,21 @@
 
 ## Objetivo del proyecto
 
-### Flujo
+## Flujo
 
-![Flujo.Burger.Queen](/img/Diagam_BurgerQueen.jpg)
+![Flujo.Burger.Queen](https://raw.githubusercontent.com/ievastumpe/SCL012-burger-queen/master/img/Diagram_BurgerQueen.jpg)
 
-### Historias de usuario
+## Historias de usuario
 
-### Diseño
+## Diseño
 
-#### Prototipo de baja fidelidad
+### Prototipo de baja fidelidad
 
-#### Prototipo de alta fidelidad
+### Prototipo de alta fidelidad
 
-#### Test de usabilidad
+## Test de usabilidad
 
-#### Planificación
+## Planificación
 
 
 
