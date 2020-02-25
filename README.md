@@ -4,7 +4,7 @@
 
 ## Flujo
 
-![Flujo.Burger.Queen](https://raw.githubusercontent.com/ievastumpe/SCL012-burger-queen/master/img/Diagram_BurgerQueen.jpg)
+![Flujo.Burger.Queen](img/Diagram_BurgerQueen2.jpg)
 
 ## Historias de usuario
 
