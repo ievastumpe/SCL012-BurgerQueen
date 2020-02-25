@@ -10,6 +10,8 @@
 
 ## Diseño
 
+figma
+
 ### Prototipo de baja fidelidad
 
 ### Prototipo de alta fidelidad
