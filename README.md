@@ -12,7 +12,11 @@
 
 ### Prototipo de baja fidelidad
 
+![prototipo baja calidad](img/Sketch2.png)
+
 ### Prototipo de alta fidelidad
+
+![prototipo alta calidad](img/Figma_prototype.png)
 
 ## Test de usabilidad
 
