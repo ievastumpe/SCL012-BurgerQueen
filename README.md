@@ -12,7 +12,7 @@
 
 ### Prototipo de baja fidelidad
 
-![prototipo baja calidad](img/Sketch2.png)
+![prototipo baja calidad](https://github.com/ievastumpe/SCL012-burger-queen/blob/master/img/sketch2.png?raw=true)
 
 ### Prototipo de alta fidelidad
 
