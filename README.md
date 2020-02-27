@@ -31,6 +31,9 @@
 
 ![prototipo alta calidad](img/Figma_prototype.png)
 
+Accesso al prototypo en plataforma de Figma [aquí](https://www.figma.com/file/H6Rvl4NQQsPHM1SynEv75A/Untitled?node-id=0%3A1).
+
+
 ## Test de usabilidad
 
 ## Planificación
