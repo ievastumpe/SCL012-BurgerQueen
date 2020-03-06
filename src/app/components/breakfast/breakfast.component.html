@@ -1,0 +1,25 @@
+<div class="row animated fadeIn fast">
+
+  <div class="col-md-4">
+
+    <img [src]="data.img" class="img-fluid" [alt]="data.item">
+    <br><br>
+    <a [routerLink]="['/items']" class="btn btn-outline-danger btn-block">Regresar</a>
+
+  </div>
+
+  <div class="col-md-8">
+    <h3>{{ data.item }}</h3>
+    <hr>
+    <p>
+      {{ data.item }}
+    </p>
+    <div>
+      <img *ngIf="data.category == 'Drink'" class="img-logo" src="assets/img/marvel-logo.png" alt="DC">
+      <img *ngIf="data.category == 'Food'" class="img-logo" src="assets/img/dc-logo.jpg" alt="Marvel">
+    </div>
+
+
+  </div>
+
+</div>

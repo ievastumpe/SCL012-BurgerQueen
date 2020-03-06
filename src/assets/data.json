@@ -6,7 +6,7 @@
             "item" : "Cafe Americano",
             "price" : 500,
             "category": "Drink",
-            "img" : " "
+            "img" : "/img/imagenes-de-productos/cafe-americano.jpg"
             
         },
         {
@@ -14,7 +14,7 @@
             "item" : "Cafe con leche",
             "price" : 700,
             "category": "Drink",
-            "img" : " "
+            "img" : "/img/imagenes-de-productos/cafe-con-leche.jpg"
         },
         {
             "id" : 3,
@@ -28,7 +28,7 @@
             "item" : "Jugo de frutas natural",
             "price" : 700,
             "category": "Drink",
-            "img" : " "
+            "img" : "/img/imagenes-de-productos/jugo-de-frutas.jpg"
         }
     ],
     "lunch": [
@@ -37,98 +37,98 @@
             "item" : "Hamburguesa simple de res",
             "price" : 1000,
             "category": "Hamburguesas",
-            "img" : " "
+            "img" : "/img/imagenes-de-productos/burger.jpg"
         },
         {
             "id" : 6,
             "item" : "Hamburguesa doble de res",
             "price" : 1500,
             "category": "Hamburguesas",
-            "img" : " "
+            "img" : "/img/imagenes-de-productos/hamburgesa-doble.jpg"
         },
         {
             "id" : 7,
             "item" : "Hamburguesa simple de pollo",
             "price" : 1000,
             "category": "Hamburguesas",
-            "img" : " "
+            "img" : "/img/imagenes-de-productos/burger.jpg"
         },
         {
             "id" : 8,
             "item" : "Hamburguesa doble de pollo",
             "price" : 1500,
             "category": "Hamburguesas",
-            "img" : " "
+            "img" : "/img/imagenes-de-productos/hamburgesa-doble.jpg"
         },
         {
             "id" : 9,
             "item" : "Hamburguesa simple vegetariana",
             "price" : 1000,
             "category": "Hamburguesas",
-            "img" : " "
+            "img" : "/img/imagenes-de-productos/burger.jpg"
         },
         {
             "id" : 10,
             "item" : "Hamburguesa doble vegetariana",
             "price" : 1500,
             "category": "Hamburguesas",
-            "img" : " "
+            "img" : "/img/imagenes-de-productos/hamburgesa-doble.jpg"
         },
         {
             "id" : 11,
             "item" : "Papas fritas",
             "price" : 500,
             "category": "Acompañamientos",
-            "img" : " "
+            "img" : "/img/imagenes-de-productos/papas-fritas.jpg"
         },
         {
             "id" : 12,
             "item" : "Aros de cebolla",
             "price" : 500,
             "category": "Acompañamientos",
-            "img" : " "
+            "img" : "/img/imagenes-de-productos/aroz-de-cebolla.jpg "
         },
         {
             "id" : 13,
             "item" : "Agua 500 ml",
             "price" : 500,
             "category": "Para tomar",
-            "img" : " "
+            "img" : "/img/imagenes-de-productos/agua.jpg"
         },
         {
             "id" : 14,
             "item" : "Agua 750 ml",
             "price" : 700,
             "category": "Para tomar",
-            "img" : " "
+            "img" : "/img/imagenes-de-productos/agua.jpg"
         },
         {
             "id" :  15,
             "item" : "Bebida/gaseosa 500ml",
             "price" : 700,
             "category": "Para tomar",
-            "img" : " "
+            "img" : "/img/imagenes-de-productos/bebida-gaseosa.jpg"
         },
         {
             "id": 16,
             "item": "Bebida/gaseosa 750ml",
             "price" : 1000,
             "category": "Para tomar",
-            "img" : " "
+            "img" : "/img/imagenes-de-productos/bebida-gaseosa.jpg"
         },
         {
             "id": 17,
             "item": "queso",
             "price" : 100,
             "category": "Agregados",
-            "img" : " "
+            "img" : "/img/imagenes-de-productos/queso.jpg"
         },
         {
             "id": 18,
             "item": "huevo",
             "price" : 100,
             "category": "Agregados",
-            "img" : " "
+            "img" : "/img/imagenes-de-productos/huevo2.png"
         }
     ]
 }
