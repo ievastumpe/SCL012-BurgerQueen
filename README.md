@@ -1,41 +1,27 @@
-# SCL012BurgerQueen
+# Burger
 
-## Objetivo del proyecto
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.5.
 
-## Flujo
+## Development server
 
-![Flujo.Burger.Queen](img/Diagram_BurgerQueen2.jpg)
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Historias de usuario
+## Code scaffolding
 
-1. Mesero/a debe poder tomar pedido de cliente
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
->_"Yo como meserx quiero tomar el pedido de un cliente para no depender de mi mala memoria, para saber cuánto cobrar, y enviarlo a la cocina para evitar errores y que se puedan ir preparando en orden."_
+## Build
 
-2. Jefe de cocina debe ver los pedidos
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
->_"Yo como jefx de cocina quiero ver los pedidos de los clientes en orden y marcar cuáles están listos para saber qué se debe cocinar y avisar a lxs meserxs que un pedido está listo para servirlo a un cliente"_
+## Running unit tests
 
-3. Meserx debe ver pedidos listos para servir
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
->_"Yo como meserx quiero ver los pedidos que están preparados para entregarlos rápidamente a los clientes que las hicieron."_
+## Running end-to-end tests
 
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Diseño
+## Further help
 
-### Prototipo de baja fidelidad
-
-![prototipo baja calidad](https://github.com/ievastumpe/SCL012-burger-queen/blob/master/img/sketch2.png?raw=true)
-
-### Prototipo de alta fidelidad
-
-![prototipo alta calidad](img/Figma_prototype.png)
-
-Accesso al prototypo en plataforma de Figma [aquí](https://www.figma.com/file/H6Rvl4NQQsPHM1SynEv75A/Untitled?node-id=0%3A1).
-
-
-## Test de usabilidad
-
-## Planificación
-
-
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
