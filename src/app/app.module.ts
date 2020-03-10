@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 //SERVICIOS
 import { LunchService } from './services/lunch.service';
+import { BreakfastService } from './services/breakfast.service';
 
 //COMPONENTES
 import { AppComponent } from './app.component';
@@ -39,7 +40,8 @@ import { FooterComponent } from './components/footer/footer.component';
     AppRoutingModule
   ],
   providers: [
-    LunchService
+    LunchService,
+    BreakfastService,
   ],
   bootstrap: [AppComponent]
 })
