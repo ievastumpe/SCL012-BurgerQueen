@@ -29,14 +29,6 @@
         <h1>Almuerzo</h1>
         <hr>
 
-        <div class="badges">
-            <a href="#" class="badge badge-light">Bebestible</a>
-            <a href="#" class="badge badge-light">Comida</a>
-        </div>
-
-        <hr>
-        <h4>Bebestible</h4>
-
         <div class="row row-cols-1 row-cols-md-3">
             <div class="col mb-4" *ngFor="let lunchb of lunch; let i = index">
                 <div class="card h-100">
@@ -45,7 +37,8 @@
                         <h6 class="card-title">{{lunchb.item}}</h6>
 
                         <p class="card-text"> $CLP {{lunchb.price}}</p>
-                        <button (click)="verLunchb(i)" type="button" class="btn btn-outline-primary btn-block">Agregar</button>
+                        <br>
+                        <button (click)="verLunchb(i)" type="button" class="btn btn-outline-success btn-block">Agregar</button>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,18 @@
+img{
+max-height: 150px;
+};
+
+.card-title{
+height: 70px;
+}
+
+.card-text{
+    float: bottom;
+}
+
+button{
+    float: bottom; 
+    position: absolute;
+    right:    0;
+    bottom:   0;
+};
