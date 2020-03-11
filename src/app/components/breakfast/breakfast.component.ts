@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router} from '@angular/router';
-import { BreakfastService, Breakfastb, BreakfastFood } from 'src/app/services/breakfast.service';
+import { BreakfastService, Breakfastb } from 'src/app/services/breakfast.service';
 
 @Component({
   selector: 'app-breakfast',
@@ -9,7 +9,6 @@ import { BreakfastService, Breakfastb, BreakfastFood } from 'src/app/services/br
 })
 export class BreakfastComponent implements OnInit {
   breakfast: Breakfastb[]=[];
-  breakfastFood: BreakfastFood[]=[];
   constructor(private _breakfastService:BreakfastService,
               private router:Router
     ) {
@@ -19,7 +18,6 @@ export class BreakfastComponent implements OnInit {
 
 
     this.breakfast = this._breakfastService.getBreakfast();
-    this.breakfastFood = this._breakfastService.getBreakfastFood();
   }
   verBreakfastb(idx:number){
     // console.log(idx);
