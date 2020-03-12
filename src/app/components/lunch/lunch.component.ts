@@ -38,6 +38,12 @@ export class LunchComponent implements OnInit {
     
   }
   
+  onClick(event) {
+    this.clickProd = event.path[1].innerText.replace('Agregar', '');
+    this.saveLocal(this.setList(this.clickProd));
+    
+  }
+
   saveLocal(array){
     localStorage.setItem('datos', JSON.stringify(array));
   }
