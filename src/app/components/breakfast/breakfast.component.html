@@ -1,103 +1,81 @@
 <div class="row">
 
-    <div class="col left">
-        <h1>Desayuno</h1>
-        <hr>
-        <div class="row row-cols-1 row-cols-md-3">
-            <div class="col mb-4" *ngFor="let breakfastb of breakfast; let i = index">
-                <div class="card h-100">
-                    <img src="{{breakfastb.img}}" class="card-img-top" alt="..."> <!-- this line a bit different from the lunch component-->
-                    <div class="card-body">
-                        <h5 class="card-title">{{breakfastb.item}}</h5>
-                        <p class="card-text"> $CLP {{breakfastb.price}}</p>
-                        <br>
-                        <button (click)="verBreakfastb(i)" type="button" class="btn btn-outline-success btn-block">Agregar</button>
-                    </div>
-                </div>
-            </div>
+  <div class="col left">
+    <h1>Desayuno</h1>
+    <hr>
+    <div class="row row-cols-1 row-cols-md-3">
+      <div class="col mb-4" *ngFor="let breakfastb of breakfast; let i = index">
+        <div class="card h-100">
+          <img src="{{breakfastb.img}}" class="card-img-top" alt="...">
+          <!-- this line a bit different from the lunch component-->
+          <div class="card-body">
+            <h5 class="card-title">{{breakfastb.item}}</h5>
+            <p class="card-text"> $CLP {{breakfastb.price}}</p>
+            <br>
+            <button (click)="onClick($event)" type="button" class="btn btn-outline-success btn-block">Agregar</button>
+          </div>
         </div>
-        <hr>
+      </div>
+    </div>
+    <hr>
 
+  </div>
+
+
+  <div class="col-4 right">
+
+    <h4>Carta</h4>
+    <hr>
+
+    <div class="row 1">
+      <div class="input">
+        <input type="text" class="form-control" id="name" placeholder="Nombre cliente"
+          style="width:200px; display:inline-block;">&nbsp;&nbsp;
+      </div>
+
+      <p># mesa</p> &nbsp;&nbsp;
+      <div class="shift">
+        <input id="shift" min="1" max="10" value="1" type="number" class="form-control"
+          style="width:50px; display:inline-block;">
+      </div>
     </div>
 
+    <ul class="list-group m-2">
+      <li class="list-group-item active bg-dark">Productos adicionados</li>
+      <li class="list-group-item" [ngClass]="{active: item.active}" *ngFor="let item of list;let indice=index">
+        <tr>
+          <td scope="row">{{indice+1}}</td>
+          <td> {{item}}</td>
 
-    <div class="col-4 right">
+        </tr>
+      </li>
+    </ul>
 
-        <h4>Carta</h4>
-        <hr>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Total</th>
+          <th scope="col">...</th>
+          <th scope="col">$ CLP</th>
+          <th scope="col">...</th>
+        </tr>
+      </thead>
+    </table>
+    <hr>
 
-        <div class="row 1">
-            <div class="input">
-                <input type="text" class="form-control" id="name" placeholder="Nombre cliente" style="width:200px; display:inline-block;">&nbsp;&nbsp;
-            </div>
-
-            <p># mesa</p> &nbsp;&nbsp;
-            <div class="shift">
-                <input id="shift" min="1" max="10" value="1" type="number" class="form-control" style="width:50px; display:inline-block;">
-            </div>
-        </div>
-
-        <div class="row 2"></div>
-        <hr>
-        <div class="table-title">Productos agregados</div>
-        <table class="table">
-            <thead>
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Producto</th>
-                    <th scope="col">Cantidad</th>
-                    <th scope="col">+/-</th>
-                    <th scope="col">Precio</th>
-                    <th scope="col">Borrar</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>..</td>
-                    <td>...</td>
-                    <td>...</td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>...</td>
-                    <td>...</td>
-                    <td>...</td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td>...</td>
-                    <td>... </td>
-                    <td>...</td>
-                </tr>
-            </tbody>
-        </table>
-        <hr>
-
-        <table class="table">
-            <thead>
-                <tr>
-                    <th scope="col">Total</th>
-                    <th scope="col">...</th>
-                    <th scope="col">$ CLP</th>
-                    <th scope="col">...</th>
-                </tr>
-            </thead>
-        </table>
-        <hr>
-
-        <div class="row 3">
-            <div class="table-title">Comentario</div>
-        </div>
-
-        <div class="row 4">
-            <div class="input">
-                <input type="text" class="form-control" id="comment" style="width:400px; height:fit-content, max-width; display:inline-block;">&nbsp;&nbsp;
-            </div>
-        </div>
-
-        <div class="row 4">
-            <button class="btn btn-outline-primary" style="align-self:center">Enviar</button>
-        </div>
+    <div class="row 3">
+      <div class="table-title">Comentario</div>
     </div>
+
+    <div class="row 4">
+      <div class="input">
+        <input type="text" class="form-control" id="comment"
+          style="width:400px; height:fit-content, max-width; display:inline-block;">&nbsp;&nbsp;
+      </div>
+    </div>
+
+    <div class="row 4">
+      <button class="btn btn-outline-primary" style="align-self:center">Enviar</button>
+    </div>
+  </div>
 </div>
