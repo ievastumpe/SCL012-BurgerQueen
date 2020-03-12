@@ -9,7 +9,6 @@ import { LunchService, Lunchb } from 'src/app/services/lunch.service';
 export class LunchComponent implements OnInit {
   clickProd: any;
   clickPrecio: number;
-  count1=0;
   list: any = [];
   lunch: Lunchb[]=[];
   constructor(private _lunchService:LunchService,
@@ -26,7 +25,6 @@ export class LunchComponent implements OnInit {
   onClickMe(event) {
     console.log(event);
     this.clickProd = event.path[1].innerText.replace('Agregar', '');
-    this.count1 = this.count1 + 1;
     this.setList(this.clickProd);
   }
 
