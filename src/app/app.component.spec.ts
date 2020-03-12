@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'SCL012-Burger-Queen'`, () => {
+  it(`should have as title 'burger'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('SCL012-Burger-Queen');
+    expect(app.title).toEqual('burger');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('SCL012-Burger-Queen app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('burger app is running!');
   });
 });
