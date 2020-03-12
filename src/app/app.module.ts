@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 //SERVICIOS
 import { LunchService } from './services/lunch.service';
+import { BreakfastService } from './services/breakfast.service';
 
 
 
@@ -42,7 +43,8 @@ import { LoginComponent } from './components/login/login.component';
     AppRoutingModule
   ],
   providers: [
-    LunchService
+    LunchService,
+    BreakfastService,
   ],
   bootstrap: [AppComponent]
 })
