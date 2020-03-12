@@ -33,7 +33,35 @@
 
 Accesso al prototypo en plataforma de Figma [aquí](https://www.figma.com/file/H6Rvl4NQQsPHM1SynEv75A/Untitled?node-id=0%3A1).
 
+Después de tests de usabilidad con prototipo y cambios en equipo, editamos el diseño para mejorar el producto final. 
+
+Los cambios hechos son:
+* distintos colores de precio - color verde del precio del producto significaría que el producto está disponible, rojo > que el restaurante no lo tiene. Asi el mecero podría reacionar más fácilmente y saber si hay algun producto que no puede ofrecer a los clientes de restaurante
+
+![productos disponibles](src/assets/img/colores-verde-rojo-al-productos.jpg)
+
+* diseño de comandas - mejoramos el diseño del pedido enviado a cocina, agregando posibilidad incluir comentario/mensaje por parte de cocinero antes de marcar que el pedido está preparado. 
+
+![diseno-de-comandas](src/assets/img/diseno-de-comandas.png)
+
+* pedidos para servir - agregamos distintos colores de pedidos por la mesa. El color verde significa que el pedido está listo para servir, color rojo - que todavía en la preparación. 
+
+![pedidos-para-servir](src/assets/img/pedidos-para-servir.png)
 
 ## Test de usabilidad
 
-## Planificación
+Hicimos 2 tests de usuabilidad mostrando prototipo en Figma. 
+Planeamos continuar con los tests de usabilidad con el producto real. 
+
+## Planificación y trabajo en equipo
+
+Nuestro proyecto en etapa final tiene los siguentes miembros de equipo:
+* [Nayarett González](https://github.com/NPGonzalez) - flujo, diseño prototipo Balsamiq, funciones de logica, coneción con Firebase, trabajo con componente de Almuerzo, coordinación de video llamadas para coordinación del trabajo en equipo etre otros,
+* [Ruth Maureira](https://github.com/RuthMaureira) - flujo, diseño prototipo Balsamiq, estructura inicial de componentes, trabajo con la vista de cocinero etre otros,
+* [Ieva Stumpe](https://github.com/ievastumpe) - estructura principal de la pagina, diseño Figma, los servicios para mostrar la data (productos del menú) en pantalla, trabajo con componente de Desayuno, coreciones de estilo con CSS adicional (aparte de Bootstrap).
+
+Agradecemos [Bianca Vicencio](https://github.com/vicencio-tech) por su gran trabajo que nos ayudo mucho al principio de proyecto!!!
+
+La planificación de las taréas entre el equipo esta hecho usando GitHub herramientas, como parte de "projects" y "issues". 
+
+![planning](src/assets/img/planning.png)
