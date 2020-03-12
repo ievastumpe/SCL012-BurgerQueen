@@ -8,6 +8,9 @@ import { BreakfastService, Breakfastb } from 'src/app/services/breakfast.service
   styleUrls: ['./breakfast.component.css']
 })
 export class BreakfastComponent implements OnInit {
+  clickProd: any;
+  clickPrecio: number;
+  list: any = [];
   breakfast: Breakfastb[]=[];
   constructor(private _breakfastService:BreakfastService,
               private router:Router
