@@ -65,3 +65,4 @@ Agradecemos [Bianca Vicencio](https://github.com/vicencio-tech) por su gran trab
 La planificación de las taréas entre el equipo esta hecho usando GitHub herramientas, como parte de "projects" y "issues". 
 
 ![planning](src/assets/img/planning.png)
+
