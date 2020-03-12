@@ -7,7 +7,10 @@ import { LunchService, Lunchb } from 'src/app/services/lunch.service';
   styleUrls: ['./lunch.component.css']
 })
 export class LunchComponent implements OnInit {
-
+  clickProd: any;
+  clickPrecio: number;
+  count1=0;
+  list: any = [];
   lunch: Lunchb[]=[];
   constructor(private _lunchService:LunchService,
               private router:Router
@@ -20,8 +23,19 @@ export class LunchComponent implements OnInit {
     this.lunch = this._lunchService.getLunch();
 
   }
-  verLunchb(idx:number){
-    // console.log(idx);
-    this.router.navigate( ['/lunchb', idx] );
+  onClickMe(event) {
+    console.log(event);
+    this.clickProd = event.path[1].innerText.replace('Agregar', '');
+    this.count1 = this.count1 + 1;
+    this.setList(this.clickProd);
+  }
+
+  suma(event) {
+    this.clickPrecio = event.path[1].innerText.split(' ', 6);
+  }
+
+  setList(item: any) {
+    this.list.push(item);
+    
   }
 }
