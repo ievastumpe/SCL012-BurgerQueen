@@ -26,6 +26,7 @@ export class LunchComponent implements OnInit {
     console.log(event);
     this.clickProd = event.path[1].innerText.replace('Agregar', '');
     this.setList(this.clickProd);
+    
   }
 
   suma(event) {
@@ -36,4 +37,16 @@ export class LunchComponent implements OnInit {
     this.list.push(item);
     
   }
+  
+  onClick(event) {
+    this.clickProd = event.path[1].innerText.replace('Agregar', '');
+    this.saveLocal(this.setList(this.clickProd));
+    
+  }
+
+  saveLocal(array){
+    localStorage.setItem('datos', JSON.stringify(array));
+  }
+
+  
 }
