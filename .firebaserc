@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "theburgerqueen-scl012": {
+      "hosting": {
+        "burger": [
+          "theburgerqueen-scl012"
+        ]
+      }
+    }
+  }
+}

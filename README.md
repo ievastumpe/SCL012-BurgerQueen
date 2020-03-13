@@ -20,7 +20,7 @@
 ### Prototipo de baja fidelidad
 ![prototipo baja calidad](src/assets/img/sketch2.png)
 
-![balsamiq](src/assets/img/Balsamiq.png)
+![balsamiq](src/assets/img/balsamiq.png)
 
 ### Prototipo de alta fidelidad
 ![prototipo alta calidad](src/assets/img/Figma_prototype.png)
