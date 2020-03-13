@@ -40,6 +40,7 @@ export class LunchComponent implements OnInit {
   
   onClick(list) {
     this.saveLocal(list);
+
     
   }
 
